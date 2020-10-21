@@ -7,3 +7,5 @@ RUN pip3 install numpy theano
 COPY . /usr/src/dockertest
 
 WORKDIR /usr/src/dockertest
+
+CMD ["python3", "test_network1.py"]
